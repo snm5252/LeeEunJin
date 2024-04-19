@@ -20,3 +20,28 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.SiteWrap {
+    position: relative;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.product-img-div {
+    background-image: url("../img/v915-wit-005-f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1700px) {
+    .SiteWrap {
+        position: relative;
+        padding-top: 0px;
+        padding-right: 100px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+    }
+}
+
